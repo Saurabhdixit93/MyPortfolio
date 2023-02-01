@@ -266,7 +266,13 @@ body {
   }
   
   
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 430px) {
+      .ullists{
+        margin-left: -40px;
+     }
+     .ullists li{
+        margin-inline: -6px;
+     }
     
     .project {
         width: 100%;
