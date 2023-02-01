@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>My Portfolio WebSite</title>
+    <!-- Fevicon -->
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <!--  icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Header -->
+        <header class="header" style=" margin-left: -12px;">
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="scroll-indicator">
+            <div class="scroll-bar"></div>
+          </div>          
+        </header>
+        <!-- Side Bar -->
+        <aside id="sidebar">
+            <div class="profile">
+                <img src="https://avatars.githubusercontent.com/u/86460997?s=96&v=4" alt="Profile Picture">
+                <h3>Saurabh Dixit</h3>
+                <p>Full Stack Web Developer</p>
+                <div class="profile-links">
+                    <a href="https://github.com/Saurabhdixit93" target="_blank">
+                        <iconify-icon icon="logos:github"></iconify-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saurabhdixit93" target="_blank">
+                        <iconify-icon icon="logos:linkedin"></iconify-icon>
+                    </a>
+                    <a href="mailto:smartds2550@gmail.com" target="_blank">
+                        <iconify-icon icon="logos:google-gmail"></iconify-icon>
+                        G-mail
+                    </a>
+                </div>
+            </div>
+            <div class="profileBott">
+                <h3>About Me</h3>
+                <p class="profileBott-desc">I am a web developer with experience in HTML, CSS, and JavaScript. I am passionate about creating modern and interactive websites that offer a unique user experience.</p>
+              </div>
+              
+        </aside>
+        <!-- Main  -->
+        <main>
+            <!-- Home Section -->
+          <section id="home" style="margin-top:45px;">
+            <h1>Welcome to my Portfolio, My Name Is Saurabh Dixit</h1>
+            <p >Hi, my name is <span class="boldness"> Saurabh Dixit </span> and I am a web developer. I have been working in the industry for several years and have a passion for <span class="boldness">creating beautiful and functional websites.</span></p>
+          </section>
+          <section id="about">
+            <h2>About Me</h2>
+             <p> I specialize in <span class="boldness">HTML, CSS, and JavaScript,</span>  and I am always looking to improve my skills and stay up-to-date with the latest <span class="boldness"> web development technologies.</span>
+                When I'm not coding, you can find me <span class="boldness">Coding, playing indore games, or reading.</span>
+              I have <span class="boldness">experience in building</span> and <span class="boldness">maintaining web applications</span> using <span class="boldness">various frameworks and libraries</span> such as<span class="boldness"> React, Angular, and Vue.js. </span>
+              I am also familiar with <span class="boldness">  back-end technologies such as Node.js and Express,</span> and have experience working with databases like <span class="boldness"> MySQL, MongoDB, and Firebase.</span>
+              I am a strong<span class="boldness"> believer in writing clean</span> and maintainable code, and I always <span class="boldness">follow best practices</span> and design patterns to ensure that the projects.
+              I work on are <span class="boldness">scalable and easy to understand for other developers.</span>
+              </p>
+          </section>
+
+          <!-- Project Section -->
+          <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-container">
+              <div class="project">
+                <div class="project-image">
+                  <img src="https://user-images.githubusercontent.com/86460997/215131242-80279277-30c6-4f60-88ce-9302e1e18e9c.png" alt="Project 1">
+                </div>
+                <div class="project-info">
+                  <h3>Coffee Shop Web Application</h3>
+                  <p>This is a website template for a coffee shop. 
+                    The website is built with HTML CSS And Javascript.</p>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-image">
+                  <img src="https://user-images.githubusercontent.com/86460997/214772410-5643039e-6008-40c1-bd75-3687bd1c1c8b.gif" alt="Project 2">
+                </div>
+                <div class="project-info">
+                  <h3>Meals Web Application App </h3>
+                  <p>Meals App displays meals from different categories and let's the users search the meals as per their interest.
+                  </p>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-image">
+                  <img src="https://user-images.githubusercontent.com/86460997/214771189-ed36d8e6-ca65-4496-a287-1b2d53ed69ef.gif" alt="Project 3">
+                </div>
+                <div class="project-info">
+                  <h3>Alarm Clock Web Application</h3>
+                  <p> This Is An Alarm Clock showing the current time (seconds,mins,hrs should change as time changes)</p>
+                </div>
+              </div>
+          </section>
+
+          <!-- Contact Me  -->
+          <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="unselectable">
+              <input type="text" placeholder="Name" required>
+              <input type="email" placeholder="Email"required>
+              <textarea placeholder="Message" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </section>
+        </main>
+
+        <!-- Devloper Contact Details -->
+    <footer style="text-align: start;letter-spacing: 10px;">
+     <div class="footerDev">
+        <div class="devloper">
+            <a href="https://github.com/Saurabhdixit93" target="_blank">
+              <iconify-icon icon="logos:github"></iconify-icon>
+             </a>
+            <a href="https://www.linkedin.com/in/saurabhdixit93" target="_blank">
+              <iconify-icon icon="logos:linkedin"></iconify-icon>
+             </a>
+              <a href="mailto:smartds2550@gmail.com" target="_blank">
+                <img class="gb_Ec" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png" 
+                srcset="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r5.png 1x, https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r5.png 2x " 
+                alt="" aria-hidden="true" role="presentation" style="width:90px;height:35px;margin-top: -8px;">
+              </a>
+            </div>
+            <div style="text-align: center;letter-spacing: 0 !important;"> &copy;  Designed By @ <span style="color: rgb(0, 16, 93) !important;">Saurabh Dixit</span> | 2022-2023 All right reserved ! </div>
+      </div>
+        </footer>
+        <div class="side-scroller"></div>
+      <script src="script.js"></script>
+</body>
+</html>
