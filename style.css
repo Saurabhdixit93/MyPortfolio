@@ -324,14 +324,6 @@ body {
       .navbar.open {
         display: block;
       }
-    
-      .toggle {
-        display: block;
-        float: right;
-        margin-right: 20px;
-        font-size: 24px;
-        cursor: pointer;
-      }
 
   }
   #sidebar {
@@ -445,7 +437,7 @@ body {
   }
 
   
-  .profile img {
+  .Imageprofile  {
     margin-top: -3px !important;
     width: 150px;
     height: 150px;
@@ -457,7 +449,7 @@ body {
     border: 5px solid rgba(255, 255, 255, 0.484);
     background: linear-gradient(45deg, #7a7373, #f7e6e6);
   }
-  .profile img:hover{
+  .Imageprofile:hover{
     transform: rotateX(20deg);
     box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.5);
   }
@@ -474,7 +466,8 @@ body {
   
   .profile-links a {
     font-size: 17px;
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-left: 5px;
     color: #333;
     transition: all 0.3s ease-in-out;
   }
