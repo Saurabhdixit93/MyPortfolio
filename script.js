@@ -37,3 +37,11 @@ window.addEventListener("scroll", function() {
   scrollBar.style.width = percentage + "%";
 });
 
+// PreLoader Of Web
+
+ window.onload = function() {
+    setTimeout(function() {
+      document.querySelector(".loader-container").style.display = "none";
+    }, 3000);
+  };
+  
